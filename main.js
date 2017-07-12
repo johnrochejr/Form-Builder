@@ -104,8 +104,14 @@ let createSelect;
 function creatingInput() {
   for (let i = 0; i < formData.length; i++) {
     createInput = document.createElement('input');
+    if (formData.type === 'select') {
+      createSelect = document.createElement('select');
+      createSelect.type = formData.type;
+    }
   }
 }
+
+
 
 
 
