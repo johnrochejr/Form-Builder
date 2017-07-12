@@ -2,7 +2,8 @@
 let formData = [
   // For demonstration purposes,
   // the first form element has been added to the HTML file as a comment
-  // compare the input in the HTML file with the contents of this first object
+  // compare the input in the HTML file with the
+  //contents of this first object
   {
     "type": "text",
     "label": "First Name",
@@ -97,4 +98,47 @@ let formData = [
 
 // -------- Your Code Goes Below this Line --------
 
+let createInput;
+let createSelect;
 
+function creatingInput() {
+  for (let i = 0; i < formData.length; i++) {
+    createInput = document.createElement('input');
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
